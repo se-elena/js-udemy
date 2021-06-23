@@ -37,13 +37,14 @@ console.log(personalMovieDB);
     }
  */
 
+const movies = {};
+
 const lastFilm = prompt(
   "Один из последних просмотренных фильмов?",
   "Зеленая миля"
 );
 const rateFilm = prompt("На сколько оцените его?", "10");
 
-const movies = {};
 movies[lastFilm] = rateFilm;
 
 console.log(movies);
